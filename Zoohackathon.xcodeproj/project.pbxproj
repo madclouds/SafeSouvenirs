@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221048491DAAA03A00682BB7 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 221048481DAAA03A00682BB7 /* splash.png */; };
+		22495E6E1DAA95370022BCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22495E6D1DAA95370022BCBB /* Assets.xcassets */; };
+		225E74E61DAA90C8005196FC /* best-things-to-buy-thailand-lanterns-2016-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74E01DAA90C8005196FC /* best-things-to-buy-thailand-lanterns-2016-10.jpg */; };
+		225E74E71DAA90C8005196FC /* buddha statue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74E11DAA90C8005196FC /* buddha statue.jpg */; };
+		225E74E81DAA90C8005196FC /* coconut lights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74E21DAA90C8005196FC /* coconut lights.jpg */; };
+		225E74E91DAA90C8005196FC /* coconut oil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74E31DAA90C8005196FC /* coconut oil.jpg */; };
+		225E74EA1DAA90C8005196FC /* thai silk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74E41DAA90C8005196FC /* thai silk.jpg */; };
+		225E74EB1DAA90C8005196FC /* thai-lacquerware.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74E51DAA90C8005196FC /* thai-lacquerware.jpg */; };
+		225E74FE1DAA90DE005196FC /* chinese_cuisine-shark_fin_soup-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74EC1DAA90DE005196FC /* chinese_cuisine-shark_fin_soup-01.jpg */; };
+		225E74FF1DAA90DE005196FC /* crocodile belt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74ED1DAA90DE005196FC /* crocodile belt.jpg */; };
+		225E75001DAA90DE005196FC /* hermes1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74EE1DAA90DE005196FC /* hermes1.jpg */; };
+		225E75011DAA90DE005196FC /* Indochinese_Tiger_8.9.2012_Hero_and_Circle_MID_243238.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74EF1DAA90DE005196FC /* Indochinese_Tiger_8.9.2012_Hero_and_Circle_MID_243238.jpg */; };
+		225E75021DAA90DE005196FC /* ivory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F01DAA90DE005196FC /* ivory.jpg */; };
+		225E75031DAA90DE005196FC /* LARGE-AUSTRALIAN-GIANT-CLAM-SHELL-27-cm-HOME.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F11DAA90DE005196FC /* LARGE-AUSTRALIAN-GIANT-CLAM-SHELL-27-cm-HOME.jpg */; };
+		225E75041DAA90DE005196FC /* manta gills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F21DAA90DE005196FC /* manta gills.jpg */; };
+		225E75051DAA90DE005196FC /* manta plates.png in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F31DAA90DE005196FC /* manta plates.png */; };
+		225E75061DAA90DE005196FC /* Oriental-Furniture-Rosewood-Jewelry-Box-JPN-JWERL001-H.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F41DAA90DE005196FC /* Oriental-Furniture-Rosewood-Jewelry-Box-JPN-JWERL001-H.jpg */; };
+		225E75071DAA90DE005196FC /* pangolin medicine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F51DAA90DE005196FC /* pangolin medicine.jpg */; };
+		225E75081DAA90DE005196FC /* Rhino_horns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F61DAA90DE005196FC /* Rhino_horns.jpg */; };
+		225E75091DAA90DE005196FC /* rhino-horn-medicine-by-ifaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F71DAA90DE005196FC /* rhino-horn-medicine-by-ifaw.jpg */; };
+		225E750A1DAA90DE005196FC /* rosewood bracelet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F81DAA90DE005196FC /* rosewood bracelet.jpeg */; };
+		225E750B1DAA90DE005196FC /* sahrkfinsjars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74F91DAA90DE005196FC /* sahrkfinsjars.jpg */; };
+		225E750C1DAA90DE005196FC /* snake skin shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74FA1DAA90DE005196FC /* snake skin shoe.jpg */; };
+		225E750D1DAA90DE005196FC /* snakeskin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74FB1DAA90DE005196FC /* snakeskin.jpg */; };
+		225E750E1DAA90DE005196FC /* tortoise shell.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 225E74FC1DAA90DE005196FC /* tortoise shell.JPG */; };
+		225E750F1DAA90DE005196FC /* trumpet shell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E74FD1DAA90DE005196FC /* trumpet shell.jpg */; };
+		225E75131DAA9338005196FC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E75101DAA9338005196FC /* 1.jpg */; };
+		225E75141DAA9338005196FC /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E75111DAA9338005196FC /* 2.jpg */; };
+		225E75151DAA9338005196FC /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E75121DAA9338005196FC /* 3.jpg */; };
+		225E75171DAA9445005196FC /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E75161DAA9445005196FC /* 4.jpg */; };
+		225E751A1DAA946D005196FC /* pangolin scale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E75181DAA946D005196FC /* pangolin scale.jpg */; };
+		225E751B1DAA946D005196FC /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 225E75191DAA946D005196FC /* tiger.jpg */; };
+		22D2E74A1DA9665200D3E5F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E7491DA9665200D3E5F6 /* main.m */; };
+		22D2E74D1DA9665200D3E5F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E74C1DA9665200D3E5F6 /* AppDelegate.m */; };
+		22D2E7501DA9665200D3E5F6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E74F1DA9665200D3E5F6 /* MainViewController.m */; };
+		22D2E7781DA9699200D3E5F6 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E7771DA9699200D3E5F6 /* ListViewController.m */; };
+		22D2E77E1DA96BAD00D3E5F6 /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E77D1DA96BAD00D3E5F6 /* ProductTableViewCell.m */; };
+		22D2E7981DA96CE900D3E5F6 /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E7971DA96CE900D3E5F6 /* ProductDetailsViewController.m */; };
+		22D2E79B1DA9701700D3E5F6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E79A1DA9701700D3E5F6 /* BaseViewController.m */; };
+		22D2E79E1DA9727200D3E5F6 /* HeroSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E79D1DA9727200D3E5F6 /* HeroSliderView.m */; };
+		22D2E7B01DA9877800D3E5F6 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22D2E7AF1DA9877800D3E5F6 /* Raleway-Regular.ttf */; };
+		22D2E7B21DA9878400D3E5F6 /* RubikOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22D2E7B11DA9878400D3E5F6 /* RubikOne-Regular.ttf */; };
+		22D2E7B41DA98A5000D3E5F6 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2E7B31DA98A5000D3E5F6 /* Constants.m */; };
+		22D2E7B61DA995EA00D3E5F6 /* mag-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D2E7B51DA995EA00D3E5F6 /* mag-glass.png */; };
+		22D2E7F11DA9CF3900D3E5F6 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22D2E7F01DA9CF3900D3E5F6 /* Raleway-Bold.ttf */; };
+		22D2E7F31DA9CF7500D3E5F6 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22D2E7F21DA9CF7500D3E5F6 /* Raleway-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		221048481DAAA03A00682BB7 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		22495E6D1DAA95370022BCBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		225E74E01DAA90C8005196FC /* best-things-to-buy-thailand-lanterns-2016-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "best-things-to-buy-thailand-lanterns-2016-10.jpg"; sourceTree = "<group>"; };
+		225E74E11DAA90C8005196FC /* buddha statue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buddha statue.jpg"; sourceTree = "<group>"; };
+		225E74E21DAA90C8005196FC /* coconut lights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coconut lights.jpg"; sourceTree = "<group>"; };
+		225E74E31DAA90C8005196FC /* coconut oil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coconut oil.jpg"; sourceTree = "<group>"; };
+		225E74E41DAA90C8005196FC /* thai silk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thai silk.jpg"; sourceTree = "<group>"; };
+		225E74E51DAA90C8005196FC /* thai-lacquerware.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thai-lacquerware.jpg"; sourceTree = "<group>"; };
+		225E74EC1DAA90DE005196FC /* chinese_cuisine-shark_fin_soup-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chinese_cuisine-shark_fin_soup-01.jpg"; sourceTree = "<group>"; };
+		225E74ED1DAA90DE005196FC /* crocodile belt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crocodile belt.jpg"; sourceTree = "<group>"; };
+		225E74EE1DAA90DE005196FC /* hermes1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hermes1.jpg; sourceTree = "<group>"; };
+		225E74EF1DAA90DE005196FC /* Indochinese_Tiger_8.9.2012_Hero_and_Circle_MID_243238.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Indochinese_Tiger_8.9.2012_Hero_and_Circle_MID_243238.jpg; sourceTree = "<group>"; };
+		225E74F01DAA90DE005196FC /* ivory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ivory.jpg; sourceTree = "<group>"; };
+		225E74F11DAA90DE005196FC /* LARGE-AUSTRALIAN-GIANT-CLAM-SHELL-27-cm-HOME.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LARGE-AUSTRALIAN-GIANT-CLAM-SHELL-27-cm-HOME.jpg"; sourceTree = "<group>"; };
+		225E74F21DAA90DE005196FC /* manta gills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "manta gills.jpg"; sourceTree = "<group>"; };
+		225E74F31DAA90DE005196FC /* manta plates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "manta plates.png"; sourceTree = "<group>"; };
+		225E74F41DAA90DE005196FC /* Oriental-Furniture-Rosewood-Jewelry-Box-JPN-JWERL001-H.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oriental-Furniture-Rosewood-Jewelry-Box-JPN-JWERL001-H.jpg"; sourceTree = "<group>"; };
+		225E74F51DAA90DE005196FC /* pangolin medicine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pangolin medicine.jpg"; sourceTree = "<group>"; };
+		225E74F61DAA90DE005196FC /* Rhino_horns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rhino_horns.jpg; sourceTree = "<group>"; };
+		225E74F71DAA90DE005196FC /* rhino-horn-medicine-by-ifaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rhino-horn-medicine-by-ifaw.jpg"; sourceTree = "<group>"; };
+		225E74F81DAA90DE005196FC /* rosewood bracelet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rosewood bracelet.jpeg"; sourceTree = "<group>"; };
+		225E74F91DAA90DE005196FC /* sahrkfinsjars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sahrkfinsjars.jpg; sourceTree = "<group>"; };
+		225E74FA1DAA90DE005196FC /* snake skin shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "snake skin shoe.jpg"; sourceTree = "<group>"; };
+		225E74FB1DAA90DE005196FC /* snakeskin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snakeskin.jpg; sourceTree = "<group>"; };
+		225E74FC1DAA90DE005196FC /* tortoise shell.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tortoise shell.JPG"; sourceTree = "<group>"; };
+		225E74FD1DAA90DE005196FC /* trumpet shell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "trumpet shell.jpg"; sourceTree = "<group>"; };
+		225E75101DAA9338005196FC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		225E75111DAA9338005196FC /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		225E75121DAA9338005196FC /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		225E75161DAA9445005196FC /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		225E75181DAA946D005196FC /* pangolin scale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pangolin scale.jpg"; sourceTree = "<group>"; };
+		225E75191DAA946D005196FC /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger.jpg; sourceTree = "<group>"; };
+		22D2E7451DA9665200D3E5F6 /* Zoohackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoohackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D2E7491DA9665200D3E5F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22D2E74B1DA9665200D3E5F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22D2E74C1DA9665200D3E5F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22D2E74E1DA9665200D3E5F6 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		22D2E74F1DA9665200D3E5F6 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		22D2E7591DA9665200D3E5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D2E7761DA9699200D3E5F6 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		22D2E7771DA9699200D3E5F6 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		22D2E77C1DA96BAD00D3E5F6 /* ProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
+		22D2E77D1DA96BAD00D3E5F6 /* ProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
+		22D2E7961DA96CE900D3E5F6 /* ProductDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailsViewController.h; sourceTree = "<group>"; };
+		22D2E7971DA96CE900D3E5F6 /* ProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsViewController.m; sourceTree = "<group>"; };
+		22D2E7991DA9701700D3E5F6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		22D2E79A1DA9701700D3E5F6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		22D2E79C1DA9727200D3E5F6 /* HeroSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroSliderView.h; sourceTree = "<group>"; };
+		22D2E79D1DA9727200D3E5F6 /* HeroSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroSliderView.m; sourceTree = "<group>"; };
+		22D2E7AB1DA9805100D3E5F6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		22D2E7AF1DA9877800D3E5F6 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		22D2E7B11DA9878400D3E5F6 /* RubikOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikOne-Regular.ttf"; sourceTree = "<group>"; };
+		22D2E7B31DA98A5000D3E5F6 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		22D2E7B51DA995EA00D3E5F6 /* mag-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mag-glass.png"; sourceTree = "<group>"; };
+		22D2E7F01DA9CF3900D3E5F6 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		22D2E7F21DA9CF7500D3E5F6 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D2E7421DA9665200D3E5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D2E73C1DA9665200D3E5F6 = {
+			isa = PBXGroup;
+			children = (
+				22D2E7471DA9665200D3E5F6 /* Zoohackathon */,
+				22D2E7461DA9665200D3E5F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22D2E7461DA9665200D3E5F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D2E7451DA9665200D3E5F6 /* Zoohackathon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D2E7471DA9665200D3E5F6 /* Zoohackathon */ = {
+			isa = PBXGroup;
+			children = (
+				22D2E77A1DA96B8D00D3E5F6 /* Elements */,
+				22D2E7791DA969FB00D3E5F6 /* Controllers */,
+				22D2E74B1DA9665200D3E5F6 /* AppDelegate.h */,
+				22D2E74C1DA9665200D3E5F6 /* AppDelegate.m */,
+				22495E6D1DAA95370022BCBB /* Assets.xcassets */,
+				22D2E7591DA9665200D3E5F6 /* Info.plist */,
+				22D2E7481DA9665200D3E5F6 /* Supporting Files */,
+			);
+			path = Zoohackathon;
+			sourceTree = "<group>";
+		};
+		22D2E7481DA9665200D3E5F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22D2E7AE1DA9876800D3E5F6 /* Fonts */,
+				22D2E7A01DA973DA00D3E5F6 /* Images */,
+				22D2E7491DA9665200D3E5F6 /* main.m */,
+				22D2E7AB1DA9805100D3E5F6 /* Constants.h */,
+				22D2E7B31DA98A5000D3E5F6 /* Constants.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22D2E7791DA969FB00D3E5F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22D2E74E1DA9665200D3E5F6 /* MainViewController.h */,
+				22D2E74F1DA9665200D3E5F6 /* MainViewController.m */,
+				22D2E7761DA9699200D3E5F6 /* ListViewController.h */,
+				22D2E7771DA9699200D3E5F6 /* ListViewController.m */,
+				22D2E7961DA96CE900D3E5F6 /* ProductDetailsViewController.h */,
+				22D2E7971DA96CE900D3E5F6 /* ProductDetailsViewController.m */,
+				22D2E7991DA9701700D3E5F6 /* BaseViewController.h */,
+				22D2E79A1DA9701700D3E5F6 /* BaseViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		22D2E77A1DA96B8D00D3E5F6 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				22D2E77B1DA96B9700D3E5F6 /* Cells */,
+				22D2E79C1DA9727200D3E5F6 /* HeroSliderView.h */,
+				22D2E79D1DA9727200D3E5F6 /* HeroSliderView.m */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
+		22D2E77B1DA96B9700D3E5F6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				22D2E77C1DA96BAD00D3E5F6 /* ProductTableViewCell.h */,
+				22D2E77D1DA96BAD00D3E5F6 /* ProductTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		22D2E7A01DA973DA00D3E5F6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				221048481DAAA03A00682BB7 /* splash.png */,
+				225E75161DAA9445005196FC /* 4.jpg */,
+				225E75101DAA9338005196FC /* 1.jpg */,
+				225E75111DAA9338005196FC /* 2.jpg */,
+				225E75121DAA9338005196FC /* 3.jpg */,
+				22D2E7B81DA99F0500D3E5F6 /* Good */,
+				22D2E7B71DA99EFF00D3E5F6 /* Bad */,
+				22D2E7B51DA995EA00D3E5F6 /* mag-glass.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		22D2E7AE1DA9876800D3E5F6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				22D2E7F21DA9CF7500D3E5F6 /* Raleway-SemiBold.ttf */,
+				22D2E7F01DA9CF3900D3E5F6 /* Raleway-Bold.ttf */,
+				22D2E7B11DA9878400D3E5F6 /* RubikOne-Regular.ttf */,
+				22D2E7AF1DA9877800D3E5F6 /* Raleway-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		22D2E7B71DA99EFF00D3E5F6 /* Bad */ = {
+			isa = PBXGroup;
+			children = (
+				225E75181DAA946D005196FC /* pangolin scale.jpg */,
+				225E75191DAA946D005196FC /* tiger.jpg */,
+				225E74EC1DAA90DE005196FC /* chinese_cuisine-shark_fin_soup-01.jpg */,
+				225E74ED1DAA90DE005196FC /* crocodile belt.jpg */,
+				225E74EE1DAA90DE005196FC /* hermes1.jpg */,
+				225E74EF1DAA90DE005196FC /* Indochinese_Tiger_8.9.2012_Hero_and_Circle_MID_243238.jpg */,
+				225E74F01DAA90DE005196FC /* ivory.jpg */,
+				225E74F11DAA90DE005196FC /* LARGE-AUSTRALIAN-GIANT-CLAM-SHELL-27-cm-HOME.jpg */,
+				225E74F21DAA90DE005196FC /* manta gills.jpg */,
+				225E74F31DAA90DE005196FC /* manta plates.png */,
+				225E74F41DAA90DE005196FC /* Oriental-Furniture-Rosewood-Jewelry-Box-JPN-JWERL001-H.jpg */,
+				225E74F51DAA90DE005196FC /* pangolin medicine.jpg */,
+				225E74F61DAA90DE005196FC /* Rhino_horns.jpg */,
+				225E74F71DAA90DE005196FC /* rhino-horn-medicine-by-ifaw.jpg */,
+				225E74F81DAA90DE005196FC /* rosewood bracelet.jpeg */,
+				225E74F91DAA90DE005196FC /* sahrkfinsjars.jpg */,
+				225E74FA1DAA90DE005196FC /* snake skin shoe.jpg */,
+				225E74FB1DAA90DE005196FC /* snakeskin.jpg */,
+				225E74FC1DAA90DE005196FC /* tortoise shell.JPG */,
+				225E74FD1DAA90DE005196FC /* trumpet shell.jpg */,
+			);
+			name = Bad;
+			sourceTree = "<group>";
+		};
+		22D2E7B81DA99F0500D3E5F6 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				225E74E01DAA90C8005196FC /* best-things-to-buy-thailand-lanterns-2016-10.jpg */,
+				225E74E11DAA90C8005196FC /* buddha statue.jpg */,
+				225E74E21DAA90C8005196FC /* coconut lights.jpg */,
+				225E74E31DAA90C8005196FC /* coconut oil.jpg */,
+				225E74E41DAA90C8005196FC /* thai silk.jpg */,
+				225E74E51DAA90C8005196FC /* thai-lacquerware.jpg */,
+			);
+			name = Good;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D2E7441DA9665200D3E5F6 /* Zoohackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D2E75C1DA9665200D3E5F6 /* Build configuration list for PBXNativeTarget "Zoohackathon" */;
+			buildPhases = (
+				22D2E7411DA9665200D3E5F6 /* Sources */,
+				22D2E7421DA9665200D3E5F6 /* Frameworks */,
+				22D2E7431DA9665200D3E5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoohackathon;
+			productName = Zoohackathon;
+			productReference = 22D2E7451DA9665200D3E5F6 /* Zoohackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D2E73D1DA9665200D3E5F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Zoohackathon;
+				TargetAttributes = {
+					22D2E7441DA9665200D3E5F6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MD75Y87424;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22D2E7401DA9665200D3E5F6 /* Build configuration list for PBXProject "Zoohackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22D2E73C1DA9665200D3E5F6;
+			productRefGroup = 22D2E7461DA9665200D3E5F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D2E7441DA9665200D3E5F6 /* Zoohackathon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D2E7431DA9665200D3E5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225E75141DAA9338005196FC /* 2.jpg in Resources */,
+				225E74EA1DAA90C8005196FC /* thai silk.jpg in Resources */,
+				225E750B1DAA90DE005196FC /* sahrkfinsjars.jpg in Resources */,
+				225E750E1DAA90DE005196FC /* tortoise shell.JPG in Resources */,
+				225E74E71DAA90C8005196FC /* buddha statue.jpg in Resources */,
+				225E751B1DAA946D005196FC /* tiger.jpg in Resources */,
+				225E75041DAA90DE005196FC /* manta gills.jpg in Resources */,
+				225E75131DAA9338005196FC /* 1.jpg in Resources */,
+				225E74E81DAA90C8005196FC /* coconut lights.jpg in Resources */,
+				225E75171DAA9445005196FC /* 4.jpg in Resources */,
+				225E751A1DAA946D005196FC /* pangolin scale.jpg in Resources */,
+				225E750A1DAA90DE005196FC /* rosewood bracelet.jpeg in Resources */,
+				225E74EB1DAA90C8005196FC /* thai-lacquerware.jpg in Resources */,
+				225E75001DAA90DE005196FC /* hermes1.jpg in Resources */,
+				225E75071DAA90DE005196FC /* pangolin medicine.jpg in Resources */,
+				22D2E7F31DA9CF7500D3E5F6 /* Raleway-SemiBold.ttf in Resources */,
+				225E74FE1DAA90DE005196FC /* chinese_cuisine-shark_fin_soup-01.jpg in Resources */,
+				22D2E7F11DA9CF3900D3E5F6 /* Raleway-Bold.ttf in Resources */,
+				225E75011DAA90DE005196FC /* Indochinese_Tiger_8.9.2012_Hero_and_Circle_MID_243238.jpg in Resources */,
+				22D2E7B01DA9877800D3E5F6 /* Raleway-Regular.ttf in Resources */,
+				225E75081DAA90DE005196FC /* Rhino_horns.jpg in Resources */,
+				22495E6E1DAA95370022BCBB /* Assets.xcassets in Resources */,
+				225E75021DAA90DE005196FC /* ivory.jpg in Resources */,
+				225E75061DAA90DE005196FC /* Oriental-Furniture-Rosewood-Jewelry-Box-JPN-JWERL001-H.jpg in Resources */,
+				22D2E7B21DA9878400D3E5F6 /* RubikOne-Regular.ttf in Resources */,
+				22D2E7B61DA995EA00D3E5F6 /* mag-glass.png in Resources */,
+				221048491DAAA03A00682BB7 /* splash.png in Resources */,
+				225E75151DAA9338005196FC /* 3.jpg in Resources */,
+				225E750C1DAA90DE005196FC /* snake skin shoe.jpg in Resources */,
+				225E74E91DAA90C8005196FC /* coconut oil.jpg in Resources */,
+				225E750F1DAA90DE005196FC /* trumpet shell.jpg in Resources */,
+				225E75031DAA90DE005196FC /* LARGE-AUSTRALIAN-GIANT-CLAM-SHELL-27-cm-HOME.jpg in Resources */,
+				225E750D1DAA90DE005196FC /* snakeskin.jpg in Resources */,
+				225E74FF1DAA90DE005196FC /* crocodile belt.jpg in Resources */,
+				225E75091DAA90DE005196FC /* rhino-horn-medicine-by-ifaw.jpg in Resources */,
+				225E74E61DAA90C8005196FC /* best-things-to-buy-thailand-lanterns-2016-10.jpg in Resources */,
+				225E75051DAA90DE005196FC /* manta plates.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D2E7411DA9665200D3E5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D2E7501DA9665200D3E5F6 /* MainViewController.m in Sources */,
+				22D2E74D1DA9665200D3E5F6 /* AppDelegate.m in Sources */,
+				22D2E7781DA9699200D3E5F6 /* ListViewController.m in Sources */,
+				22D2E7981DA96CE900D3E5F6 /* ProductDetailsViewController.m in Sources */,
+				22D2E74A1DA9665200D3E5F6 /* main.m in Sources */,
+				22D2E79B1DA9701700D3E5F6 /* BaseViewController.m in Sources */,
+				22D2E77E1DA96BAD00D3E5F6 /* ProductTableViewCell.m in Sources */,
+				22D2E79E1DA9727200D3E5F6 /* HeroSliderView.m in Sources */,
+				22D2E7B41DA98A5000D3E5F6 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22D2E75A1DA9665200D3E5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22D2E75B1DA9665200D3E5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22D2E75D1DA9665200D3E5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MD75Y87424;
+				INFOPLIST_FILE = Zoohackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoohackathon.Zoohackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22D2E75E1DA9665200D3E5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MD75Y87424;
+				INFOPLIST_FILE = Zoohackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoohackathon.Zoohackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D2E7401DA9665200D3E5F6 /* Build configuration list for PBXProject "Zoohackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D2E75A1DA9665200D3E5F6 /* Debug */,
+				22D2E75B1DA9665200D3E5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D2E75C1DA9665200D3E5F6 /* Build configuration list for PBXNativeTarget "Zoohackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D2E75D1DA9665200D3E5F6 /* Debug */,
+				22D2E75E1DA9665200D3E5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D2E73D1DA9665200D3E5F6 /* Project object */;
+}
