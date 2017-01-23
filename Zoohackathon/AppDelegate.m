@@ -26,7 +26,7 @@
     MainViewController* main = [[MainViewController alloc] initWithNibName:nil bundle:nil];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:main];
     
-    nav.navigationBar.translucent = NO;
+    nav.navigationBar.translucent = NO; 
     [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
 
